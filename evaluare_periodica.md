@@ -6,6 +6,7 @@ De creat un modul CRUD, conform variantei si de implementat functionalul descris
 1. Creați un repositoriu privat ``ep22112024`` și deschideți acces pentru ``sergiuchilat`` (2p)
 2. Creați o entitate(conform variantei) (2p)
 3. Creati un ednpoint care va fi accesibil cu metoda GET si va returna lista tuturor entitatilor (2p)
+
 Ex: GET /products va returna
 ```
 [
@@ -16,6 +17,7 @@ Ex: GET /products va returna
 ]
 ```
 4. Creati un ednpoint care va fi accesibil cu metoda GET si va returna o entitate dupa id-ul indicat (2p)
+
 Ex: GET /products/1 va returna
 ```
 {
@@ -24,6 +26,7 @@ Ex: GET /products/1 va returna
 }
 ```
 5. Creati un ednpoint care va fi accesibil cu metoda POST si va permite adaugarea unei entitati (3p)
+
 Ex: POST /products va primi
 ```
 {
@@ -34,6 +37,7 @@ Ex: POST /products va primi
 si va returna "Succes" daca produsul a fost adaugat si "Error" daca produsul nu a fost adaugat.
 
 6. Creati un ednpoint care va fi accesibil cu metoda PUT si va permite modificarea unei entitati cu un ID indicat (3p)
+
 Ex: PUT /products/1 va primi
 ```
 {
@@ -41,12 +45,15 @@ Ex: PUT /products/1 va primi
 }
 ```
 si va returna "Succes" daca produsul a fost modificat si "Error" daca produsul nu a fost modificat.
+
 7. Creati un ednpoint care va fi accesibil cu metoda DELETE si va sterge o entitate dupa id-ul indicat (2p)
+
 Ex: DELETE /products/1 va returna
 ```
 {}
 ```
 daca produsul a fost sters si "Error" daca produsul nu aputut fi sters
+
 8. Toate endpoint-urile trebuie sa returneze status code corect, in dependenta de situatie: (2 p)
 - Cod 200 in caz ca operatia a fost executata cu succes
 - Cod 404 in cazul in care informatia solicitata nu exista
